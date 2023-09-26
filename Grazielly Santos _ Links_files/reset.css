@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #862676;
+  --primary-hover: #ab89fa;
+  --background: #e956d0;
+  --box-background: #cf86d1;
+  --text-color: #4b0b32;
+  --green: #4d0e5a;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body, input, button {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
